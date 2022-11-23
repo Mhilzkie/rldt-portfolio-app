@@ -1,0 +1,163 @@
+.bglandingpage{
+    background-color: rgba(222, 246, 248, 0.808);
+    width: 120%;
+}
+.bgProfile{
+    background-color: rgba(222, 246, 248, 0.808);
+    height: 100vh;
+}
+.bgporfolio{
+    background-color: rgba(222, 246, 248, 0.808);
+    height: 200vh;
+}
+.bgeducation{
+    background-color: rgba(222, 246, 248, 0.808);
+    height: 280vh;
+}
+.bgskill{
+    background-color: rgba(222, 246, 248, 0.808);
+    height: 100vh;
+}
+.bgcontact{
+    background-color: rgba(47, 49, 49, 0.603);
+    height: 100vh;
+    width:100%;
+}
+.footerbg{
+    background-color: #333;
+    height: 25vh;
+}
+.greattings{
+    float:left;
+    display: block;
+    color: #0a0909;
+    text-align: left;
+    margin-top: 250px;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 120px;
+    font-family: Arthemis;
+
+}
+.myname{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight:lighter;
+    margin-bottom: 2px;
+    height: 40px;
+}
+.nameko{
+    font-size: 170px;
+    text-align: left;
+    font-family: myFirstFont;
+}
+.justtitle{
+    font-size: 20px;
+    padding-bottom: 2px;
+    
+}
+.shortdesc{
+    margin-left: 100px;
+    padding-right: 300px;
+}
+.topmeas{
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-bottom: 2px;
+    align-self: center;
+    
+    margin-bottom: 0px;
+    
+}
+.profname{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
+    padding-bottom: 2px;
+    
+    margin-bottom: 0px;
+}
+.skilllist{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
+    padding-bottom: 2px;
+    
+    margin-bottom: 0px;
+}
+.aboutpage{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
+    margin-bottom: 0px;
+}
+.mypic{
+    margin:0px;
+    padding: 0px;
+}
+.edulogos{
+    margin:0px;
+    padding: 0px;
+    align-items: flex-start;
+    display: block;
+}
+.myfuturerole{
+    font-size: 20px;
+    margin-bottom: 2px;
+    height: 40px;
+    margin-top: 0px ;
+}
+.develop{
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bold;
+}
+.mycourse{
+    color: darkgreen;
+    font-size:40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: flex-start;
+}
+.myschool{
+    color: rgb(201, 43, 43);
+    font-size:30px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: flex-start;
+}
+.myyear{
+    color: darkgreen;
+    font-size:25px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: flex-start;
+}
+#map {
+    height: 500px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+    margin-left: 0vh;
+  }
+  .footer{
+    position:relative;
+    /* height: 25vh; */
+    /* background-color: #3e3d3f; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 2; 
+    text-align: center;
+    margin-top: 75px;
+    font-size: 70px;
+    font-family: fantasy;
+  }
+
+ 
