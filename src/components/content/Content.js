@@ -18,6 +18,7 @@ import contactus from '../../images/contactus.png';
 import linkedin from '../../images/linlkd.png';
 import fb from '../../images/fb.png';
 import web from '../../images/web.png';
+import cartoonimg from '../../images/mycartoonimg.jpg';
 
 
 
@@ -26,13 +27,13 @@ const Content = (props) => {
     return (
     <div id='home' className='row'>
       <div className='bglandingpage row'>
-          <div className='col'>
-            <img src="https://scontent.fmnl13-2.fna.fbcdn.net/v/t1.6435-9/118557525_1570953353086689_1435265900342788306_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEFAfYgkrtvTFtlbj_pUs3TZUzPVxFQFM9lTM9XEVAUz_sDvnjgfvHqKTKHvJLyJmocv08TmutBz43A7_k4txf1&_nc_ohc=jDgwdICIyksAX-0htQ8&tn=LhMYyhKr_PGJAyVj&_nc_ht=scontent.fmnl13-2.fna&oh=00_AfDA8e6Adh_kzCwne5gWCEEEp4bb9omeB5E5_hw4Cpyy_A&oe=63A2FAF5" alt="React Logo" height={"750"} width={"880"} />
+          <div className='col ms-0'>
+            <img src={cartoonimg} alt="React Logo" height={"850"} width={"880"} />
           </div>
           <div className='greattings col'>
             <h1 className='greetings'>Hi there it's me...</h1>
             <h1 className='nameko'>Ramil</h1>
-            <h1 className='justtitle'>Your Anspiring Web Developer</h1>
+            <h1 className='justtitle'>Your Friendly Web Developer</h1>
           </div>
       </div>
 
@@ -40,12 +41,16 @@ const Content = (props) => {
           <div className='topmeas'>
             <h1 className='profname mb-1' >PROFILE</h1>
           </div>
-          <div className='mypic mt-0'>
-          <img src={profpic} alt="React Logo" height={"300"} width={"330"} />
+          <div className='row'>
+          <div className='mypic mt-0 col'>
+            <img src={profpic} alt="React Logo" height={"300"} width={"330"} />
           </div>
             <h1 className='myname'>Ramil De La Torre</h1>
             <h4 className='myfuturerole mt-0'>Anspirng Web Developer - I.T Specialist - Programmer</h4>
+          <div className='col'>
             <h5 className='shortdesc justify text-center'>I am experienced in-Terms of Technicall Aspect in technology like Security Survillance System, Wireless Networks and some IDE Flatform porgramming also add the technicallity in System Administration for high level overviews. corporate strategy for collaborative thinking for Quality system Integration and now In few Months i will be a FULL STACK Web Developer.</h5>
+          </div>
+          </div>
         </div>
 
         <div id='portfolio' className='bgporfolio row'>
@@ -83,7 +88,7 @@ const Content = (props) => {
               </div>
             </div>
           </div>
-          
+          </div> 
         <div id='education' className='bgeducation row mt-5 pt-5'>
           <div className='d-flex justify-content-center'>
             <h1 className='profname mb-1' >EDUCATION</h1>
@@ -142,17 +147,18 @@ const Content = (props) => {
                         <h3 className="text-center">Vocational Course</h3>
                         <h5 className="text-center">September 8, 2017</h5>
                     </div>
-
+                </div>
             <div id='skills' className='bgskill row'>
               <div className='d-flex justify-content-center'>
                 <h1 className='skilllist mb-1 mt-5' >SKILLS</h1>
               </div>  
               <div class="row mt-5 mb-3">
-                        
+
                         <div className="col container text-center">
-                            <img className="" alt="Bootstrap Logo" src="https://www.shareicon.net/data/2015/08/31/93786_bootstrap_512x512.png" width="128" height="128"/>
-                            <h3 className="text-center">Boostrap</h3>
-                        </div>
+                            <img className="" alt="React Logo" src="https://cdn.worldvectorlogo.com/logos/react-1.svg" width="128" height="128"/>
+                            <h3 className="text-center">React JS</h3>
+                        </div>  
+                        
                         <div className="col container text-center">
                             <img className="" alt="HTML Logo" src="http://cdn.onlinewebfonts.com/svg/img_565447.png" width="128" height="128"/>
                             <h3 className="text-center">HTML</h3>
@@ -166,19 +172,20 @@ const Content = (props) => {
                             <h3 className="text-center">JavaScript</h3>
                         </div>
                         <div className="col container text-center">
-                            <img className="" alt="Photoshop Logo" src="http://cdn.onlinewebfonts.com/svg/img_78888.png" width="128" height="128"/>
-                            <h3 className="text-center">Photoshop</h3>
+                            <img className="" alt="Node Logo" src="https://pic.onlinewebfonts.com/svg/img_189697.png" width="128" height="128"/>
+                            <h3 className="text-center">Node JS</h3>
                         </div>
-                        <div className="row mt-5 mb-3">
                         
+                        <div className="row mt-5 mb-3">
+                        <div className="col container text-center">
+                            <img className="" alt="Bootstrap Logo" src="https://www.shareicon.net/data/2015/08/31/93786_bootstrap_512x512.png" width="128" height="128"/>
+                            <h3 className="text-center">Boostrap</h3>
+                        </div>
                         <div className="col container text-center">
                             <img className="" alt="VB Logo" src="https://www.ictdemy.com/images/5820968287c96_image_0_thumb.svg" width="128" height="128"/>
                             <h3 className="text-center">Visual Basic .Net</h3>
                         </div>
-                        <div className="col container text-center">
-                            <img className="" alt="WinServer Logo" src="https://brandslogos.com/wp-content/uploads/images/windows-logo-vector.svg" width="128" height="128"/>
-                            <h3 className="text-center">Windows Server</h3>
-                        </div>
+                        
                         <div className="col container text-center">
                             <img className="" alt="CCTV Logo" src="https://i.pinimg.com/originals/54/27/7b/54277bd6bf206c36453d3244ad9b014f.png" width="128" height="128"/>
                             <h3 className="text-center">Survillance System</h3>
@@ -250,9 +257,9 @@ const Content = (props) => {
                     </div>
               </div> 
 
-        </div>
         
-      </div>
+        
+      
 
     </div>
   );

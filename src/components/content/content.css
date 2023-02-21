@@ -1,6 +1,7 @@
 .bglandingpage{
     background-color: rgba(222, 246, 248, 0.808);
-    width: 120%;
+    width: 100%;
+    align-items: start;
 }
 .bgProfile{
     background-color: rgba(222, 246, 248, 0.808);
@@ -8,7 +9,8 @@
 }
 .bgporfolio{
     background-color: rgba(222, 246, 248, 0.808);
-    height: 200vh;
+    height: 145vh;
+    margin-top: 30px;
 }
 .bgeducation{
     background-color: rgba(222, 246, 248, 0.808);
@@ -52,17 +54,17 @@
     font-family: myFirstFont;
 }
 .justtitle{
-    font-size: 20px;
+    font-size: 40px;
     padding-bottom: 2px;
     
 }
 .shortdesc{
     margin-left: 100px;
-    padding-right: 300px;
+    /* padding-right: 310px; */
 }
 .topmeas{
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 10px;
     margin-bottom: 2px;
     align-self: center;
     
@@ -72,7 +74,7 @@
 .profname{
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
     align-self: center;
     padding-bottom: 2px;
